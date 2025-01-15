@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+    background-color: #fff;
+}
+
+.hero-content{
+    flex: 1;
+    padding-right: 20px;
+    max-width: 500px;
+}
+
+.hero-image{
+    width: 40%;
+     max-width: 400px;
+}
+
+.benefits{
+    padding: 2rem;
+    text-align: center;
+}
+.benefit-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+    flex-wrap: wrap;
+}
+.benefit{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+     max-width: 250px;
+}
+.service-card{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.booking-section{
+    padding: 2rem;
+    text-align: center;
+}
+
+.payment-options{
+    display: flex;
+  justify-content: center;
+  gap: 1rem;
+    flex-wrap: wrap;
+}
+.payment-card{
+     background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+     text-align: center;
+      max-width: 250px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
